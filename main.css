@@ -47,7 +47,7 @@ nav a:hover{
 main{
     width: 80%;
     margin: 2rem;
-    
+
 }
 
 /* Estilização das seções da página compostas por Produtos, bebidas, pedidos e contato*/
@@ -57,7 +57,7 @@ main{
 }
 
 .produto{
-    background-color: #8b6c84;
+    background-color: #beb3bc;
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -89,6 +89,15 @@ main{
     padding: 0.5rem 1rem;
     border-radius: 5rem;
     cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: auto;
+    background-color: #ff9000;
+    color: #fff;
+    font-weight: bold;
+
 }
 
 /* Estilo de responsividade*/
