@@ -65,7 +65,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    margin: 10px;
 }
 
 div button:hover{
@@ -74,7 +74,7 @@ div button:hover{
 
 .produto img{
     max-width: 100%;
-    height: auto;
+    height: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -93,6 +93,8 @@ div button:hover{
     padding: 0.5rem 1rem;
     border-radius: 5rem;
     cursor: pointer;
+    bottom: 15svb;
+
     
 }
 
