@@ -57,7 +57,7 @@ main{
 }
 
 .produto{
-    background-color: #beb3bc;
+    background-color: #9e8fa2;
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -65,7 +65,11 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
+}
 
+div button:hover{
+    background-color: #969824;
 }
 
 .produto img{
@@ -89,15 +93,17 @@ main{
     padding: 0.5rem 1rem;
     border-radius: 5rem;
     cursor: pointer;
+    
 }
 
 footer{
     text-align: center;
-    padding: auto;
-    background-color: #ff9000;
+    padding: 0.7rem;
+    background-color: #d31717;
     color: #fff;
     font-weight: bold;
-
+    font-size:larger;
+    
 }
 
 /* Estilo de responsividade*/
