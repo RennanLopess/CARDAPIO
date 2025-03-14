@@ -46,7 +46,7 @@ nav a:hover{
 
 main{
     width: 80%;
-    margin: 2rem;
+    margin: 2rem auto;
 
 }
 
@@ -97,15 +97,49 @@ div button:hover{
     
 }
 
+#PEDIDO{
+    background-color: #675a5a;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#CONTATO{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+   display: inline-block;
+   background-color: #ffca28; 
+   color: #333;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+   text-decoration: none;
+   margin: 0.5rem;
+}
+
+div.redes-sociais :hover{
+    background-color: #969824;
+}
+
 footer{
     text-align: center;
     padding: 0.7rem;
-    background-color: #d31717;
+    background-color: #7a5e5e;
     color: #fff;
     font-weight: bold;
     font-size:larger;
     
 }
+
+
+
+
 
 /* Estilo de responsividade*/
 @media(min-width: 768px){
@@ -115,5 +149,6 @@ footer{
     .categoria{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
     }
 }
