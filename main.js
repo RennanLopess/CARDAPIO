@@ -16,11 +16,13 @@ botoesAdicionar.forEach(botao =>{
 
         itemPedido.textContent = `${nome} = R$ ${preco.toFixed(2)}`;
 
-        listaPedido.appendChild{itemPedido};
+        listaPedido.appendChild(itemPedido);
+
+        total += preco;
 
         totalElemento.textContent = `total: R$ ${total.toFixed(2)}`;
 
-        total += preco;
+        
     });
 });
 
